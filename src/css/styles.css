@@ -7,7 +7,7 @@
 
 @media only screen and (min-width: 767px) {
   body {
-    background: rgb(4, 3, 3);
+    background: #ECA292;
   }
 }
 
@@ -140,10 +140,18 @@ input[type="text"] {
 }
 
 .card-image-right {
-  height: 150px;
+  height: 100px;
   background-position: center;
   background-size: cover;
   background-image: url('../images/hero.jpg');
+  
+  
+}
+@media only screen and (max-width: 546px) {
+  .card-image-right {
+    
+  }
+  
 }
 
 .btn-see-all {
